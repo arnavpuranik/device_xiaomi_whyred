@@ -58,4 +58,4 @@ TARGET_SCREEN_DENSITY := 440
 # Fluid stuff
 PRODUCT_PRODUCT_PROPERTIES += \
   ro.fluid.maintainer=Arnav \
-  ro.fluid.cpu=SnapDragon 636
+  ro.fluid.cpu=SD636
