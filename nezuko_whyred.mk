@@ -25,13 +25,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit from custom vendor
-$(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
-
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/fluid/config/common.mk)
+$(call inherit-product, vendor/nezuko/config/common.mk)
 
-PRODUCT_NAME := fluid_whyred
+PRODUCT_NAME := nezuko_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -55,7 +52,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_DENSITY := 440
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-# Fluid stuff
+# Nezuko Stuff
+TARGET_BOOT_ANIMATION_RES := 1080
+NEZUKO_MAINTAINER := Arnav
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.fluid.maintainer=Arnav \
-  ro.fluid.cpu=SD636
+    ro.nezuko.cpu=SD636
