@@ -203,3 +203,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.disable_init_blank=true \
     ro.charger.enable_suspend=true
+
+# Gesture Navigation by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
