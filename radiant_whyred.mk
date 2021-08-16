@@ -26,9 +26,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/nezuko/config/common_full_phone.mk)
+$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
 
-PRODUCT_NAME := nezuko_whyred
+PRODUCT_NAME := radiant_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -52,8 +52,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_DENSITY := 440
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-# Nezuko Stuff
-NEZUKO_BUILD_TYPE := OFFICIAL
+# Radiant Stuff
+RADIANT_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.nezuko.cpu=SD636
+
+

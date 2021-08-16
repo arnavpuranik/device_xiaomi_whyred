@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nezuko_whyred.mk
+    $(LOCAL_DIR)/radiant_whyred.mk
