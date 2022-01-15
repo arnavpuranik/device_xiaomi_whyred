@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_whyred.mk
+    $(LOCAL_DIR)/radiant_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_whyred-user \
-    fluid_whyred-userdebug \
-    fluid_whyred-eng
+    radiant_whyred-user \
+    radiant_whyred-userdebug \
+    radiant_whyred-eng
