@@ -18,6 +18,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+# Inherit  Google Hotword Enrollment
+$(call inherit-product, vendor/xiaomi/google/google.mk)
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
