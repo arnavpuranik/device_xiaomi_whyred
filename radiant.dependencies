@@ -21,12 +21,6 @@
     "branch": "twelve"
   },
   {
-    "repository": "arnavpuranik/vendor_dirac",
-    "target_path": "vendor/dirac",
-    "remote": "github",
-    "branch": "twelve"
-  },
-  {
     "repository": "vendor_hotword",
     "target_path": "vendor/xiaomi/google",
     "remote": "RadiantDevicesGitlab",
