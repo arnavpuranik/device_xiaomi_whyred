@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
 # Consumerir
 BOARD_HAVE_IR := true
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GCamGo
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
